@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>formulario</title>
+		<h1>Despliegue de Apliaciones Web</h1>
+		<img src="WebFormulario.jpg" width="100%"></img>
+	</head>
+	<body>
+		<h1>Deja tu comentario:</h1>
+		<p>Rellena el siguiente formulario para dejar un comentario sobre una página o blog! Ayudame a mejorar y no olvides puntuar, además de dejar tu valoración. ¡Será un placer contestarte!
+		<fieldset>
+			<legend>Mensaje: </legend>
+				Nombre o apodo: <input type="text" maxlength="30" name="nombre"></input><br>
+				E-mail: <input type="email" name="correo" value="@" maxlength="50"></input> <br>
+				¿Desea recibir información semanal de nuestra página?<br>
+				<input type="radio" name="si">Sí</input>
+				<input type="radio" name="no">No</input><br>
+				Tu mensaje:<br>
+				<textarea width="600px" height="100px"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Valoración General</legend>
+				Puntúa mi página: <select name="valoracion">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				</select>
+		</fieldset>
+		<fieldset>
+			<legend>Nuevos temas</legend>
+				¿Qué temas te gustaría quen tuviera mi blog?<br>
+				<input type="checkbox" value="1" name="op1">HTML</input>
+				<input type="checkbox" value="2" name="op2">CSS</input>
+				<input type="checkbox" value="3" name="op3">Java</input>
+				<input type="checkbox" value="4" name="op4">PHP</input>
+				<input type="checkbox" value="5" name="op5">Linux</input>
+				<input type="checkbox" value="6" name="op6">MacOS</input>
+		</fieldset>
+		<input type="submit" value="Enviar mensaje"></input>
+		<input type="submit" value="Comenzar de nuevo"></input>
+	</body>
+</html>
+		
+		
